@@ -1,5 +1,9 @@
 @import url("https://use.typekit.net/wcv3oxg.css");
 
+body {
+  padding: 20px 83px;
+}
+
 header {
   height: 777px;
   width: auto;
@@ -32,10 +36,55 @@ nav a {
   font-weight: 600;
   font-size: 77px;
   font-style: normal;
+  margin-left: -12px;
   margin-top: 38px;
-  margin-left: 83px;
+  margin-bottom: 63px;
   display: inline-block;
 }
+
+.subtitle {
+  font-family: scotch-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.header-nums {
+  font-family: articulat-heavy-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 130px;
+}
+
+.header-nums::before {
+  content: "";
+  display: block;
+  height: 7px;
+}
+
+.header-nums-sub {
+  font-family: auto-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 .bg-img1 {
   height: 600px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.vertical-center {
+  vertical-align: middle;
+}
+
+#keyboard-shutter {
+  width: 504px;
+  height: 493px;
+  float: right;
 }
