@@ -33,6 +33,10 @@ nav li a {
   font-style: normal;
 }
 
+nav li a:hover {
+  color: grey;
+}
+
 .title {
   font-family: contralto-big, sans-serif;
   font-weight: 600;
@@ -64,8 +68,8 @@ nav li a {
   display: block;
   height: 7px;
   background-color: #b6f9ce;
-  position: absolute;
-  top: 520px;
+  position: relative;
+  top: 50px;
   width: 0px;
   transition: all ease-in-out 250ms;
 }
@@ -87,8 +91,8 @@ nav li a {
   display: block;
   height: 7px;
   background-color: #b3a2f3;
-  position: absolute;
-  top: 520px;
+  position: relative;
+  top: 50px;
   width: 0px;
   transition: all ease-in-out 250ms;
 }
@@ -136,4 +140,48 @@ nav li a {
   height: 316px;
   width: 277px;
   object-fit: cover;
+}
+
+.ontwerp-image-sub {
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.table-element {
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+#ontwerp-section {
+  width: 100%;
+}
+
+#ontwerp-header {
+  font-family: articulat-heavy-cf;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  float: right;
+  position: relative;
+  top: 150px;
+  right: 50px;
+}
+
+#ontwerp-header::before {
+  content: "";
+  display: block;
+  height: 7px;
+  background-color: #b3a2f3;
+  width: 130px;
+  position: relative;
+  top: 50px;
+  left: 88px;
+}
+
+#ontwerp-table {
+  display: inline-block;
+  margin-right: 10px;
 }
