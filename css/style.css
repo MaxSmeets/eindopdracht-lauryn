@@ -131,3 +131,9 @@ nav li a {
 #signup-btn {
   text-decoration: underline;
 }
+
+.ontwerp-image {
+  height: 316px;
+  width: 277px;
+  object-fit: cover;
+}
