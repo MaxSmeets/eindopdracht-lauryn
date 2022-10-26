@@ -22,15 +22,17 @@ nav li {
   display: inline;
   float: right;
 }
-nav a {
+nav li a {
   display: inline-block;
-  padding: 30px;
   color: #111113;
   text-decoration: none;
-  font-family: auto-pro-new, sans-serif;
+  margin: 18px -80px 0px 180px;
+  padding: 10px 15px;
+  font-family: "auto-pro-new", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .title {
   font-family: contralto-big, sans-serif;
   font-weight: 600;
@@ -49,7 +51,7 @@ nav a {
   font-size: 50px;
 }
 
-.header-nums {
+#header-nums-members {
   font-family: articulat-heavy-cf, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -57,10 +59,42 @@ nav a {
   margin-top: 130px;
 }
 
-.header-nums::before {
+#header-nums-members::before {
   content: "";
   display: block;
   height: 7px;
+  background-color: #b6f9ce;
+  position: absolute;
+  top: 520px;
+  width: 0px;
+  transition: all ease-in-out 250ms;
+}
+
+#header-nums-members:hover::before {
+  width: 130px;
+}
+
+#header-nums-articles {
+  font-family: articulat-heavy-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 130px;
+}
+
+#header-nums-articles::before {
+  content: "";
+  display: block;
+  height: 7px;
+  background-color: #b3a2f3;
+  position: absolute;
+  top: 520px;
+  width: 0px;
+  transition: all ease-in-out 250ms;
+}
+
+#header-nums-articles:hover::before {
+  width: 130px;
 }
 
 .header-nums-sub {
@@ -87,4 +121,13 @@ nav a {
   width: 504px;
   height: 493px;
   float: right;
+}
+
+#categories-btn {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+#signup-btn {
+  text-decoration: underline;
 }
