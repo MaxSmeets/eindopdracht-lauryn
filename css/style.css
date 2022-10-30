@@ -2,10 +2,10 @@
 
 body {
   padding: 20px 83px;
-  background-image: url(../img/figuur1.png);
+  /* background-image: url(../img/figuur1.png);
   background-repeat: no-repeat;
   background-size: 1200px;
-  background-position: right;
+  background-position: right; */
 }
 
 header {
@@ -41,6 +41,88 @@ nav li a:hover {
   color: grey;
 }
 
+.bg-img1 {
+  height: 600px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.vertical-center {
+  vertical-align: middle;
+}
+
+#categories-btn {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+#signup-btn {
+  text-decoration: underline;
+}
+
+.ontwerp-image-sub {
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  padding: 0px;
+  background-color: white;
+}
+
+.table-element {
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+.section-div {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.editors-picks-image {
+  width: 377px;
+  height: 490px;
+}
+
+#ontwerp-table {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Image styles */
+.ontwerp-image {
+  height: 316px;
+  width: 277px;
+  object-fit: cover;
+}
+
+#keyboard-shutter {
+  width: 504px;
+  height: 493px;
+  float: right;
+}
+
+#green-chairs {
+  width: 599px;
+  height: 570px;
+  float: right;
+  object-fit: cover;
+}
+
+#black-wires {
+  height: 570px;
+  width: 875px;
+  object-fit: cover;
+  float: right;
+  margin-top: 250px;
+  margin-bottom: 180px;
+}
+
+/* Text styles */
 .title {
   font-family: contralto-big, sans-serif;
   font-weight: 600;
@@ -112,60 +194,6 @@ nav li a:hover {
   font-size: 20px;
 }
 
-.bg-img1 {
-  height: 600px;
-}
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-.vertical-center {
-  vertical-align: middle;
-}
-
-#keyboard-shutter {
-  width: 504px;
-  height: 493px;
-  float: right;
-}
-
-#categories-btn {
-  border: 1px solid #000;
-  border-radius: 10px;
-}
-
-#signup-btn {
-  text-decoration: underline;
-}
-
-.ontwerp-image {
-  height: 316px;
-  width: 277px;
-  object-fit: cover;
-}
-
-.ontwerp-image-sub {
-  font-family: auto-pro-new, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 20px;
-  padding: 0px;
-  background-color: white;
-}
-
-.table-element {
-  width: 300px;
-  padding: 5px;
-  text-align: center;
-}
-
-.section-div {
-  width: 100%;
-  margin-bottom: 130px;
-}
-
 .clickable-link {
   text-decoration-line: underline;
   float: right;
@@ -197,7 +225,24 @@ nav li a:hover {
   left: 88px;
 }
 
-#ontwerp-table {
-  display: inline-block;
-  margin-right: 10px;
+#ethiek-header {
+  font-family: articulat-heavy-cf;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  float: right;
+  position: relative;
+  top: 150px;
+  right: 50px;
+}
+
+#ethiek-header::before {
+  content: "";
+  display: block;
+  height: 7px;
+  background-color: #b6f9ce;
+  width: 130px;
+  position: relative;
+  top: 50px;
+  left: 88px;
 }
