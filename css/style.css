@@ -161,8 +161,18 @@ nav li a:hover {
   text-align: center;
 }
 
-#ontwerp-section {
+.section-div {
   width: 100%;
+  margin-bottom: 130px;
+}
+
+.clickable-link {
+  text-decoration-line: underline;
+  float: right;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 #ontwerp-header {
