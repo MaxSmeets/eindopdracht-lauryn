@@ -1,12 +1,11 @@
 @import url("https://use.typekit.net/wcv3oxg.css");
 
-body {
-  padding: 20px 83px;
-  /* background-image: url(../img/figuur1.png);
+/* body {
+  background-image: url(../img/figuur1.png);
   background-repeat: no-repeat;
-  background-size: 1200px;
-  background-position: right; */
-}
+  background-size: 900px;
+  background-position: left;
+} */
 
 header {
   height: 777px;
@@ -83,20 +82,37 @@ nav li a:hover {
   margin-bottom: 150px;
 }
 
-.editors-picks-image {
-  width: 377px;
-  height: 490px;
-}
-
 #ontwerp-table {
   display: inline-block;
   margin-right: 10px;
+}
+
+.centered-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.main {
+  margin: 20px 83px;
 }
 
 /* Image styles */
 .ontwerp-image {
   height: 316px;
   width: 277px;
+  object-fit: cover;
+}
+
+.editors-picks-image {
+  width: 377px;
+  height: 490px;
   object-fit: cover;
 }
 
@@ -122,6 +138,19 @@ nav li a:hover {
   margin-bottom: 180px;
 }
 
+#walking {
+  height: 570px;
+  width: 599px;
+  object-fit: cover;
+}
+
+#create-wall {
+  height: 570px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 237px;
+}
+
 /* Text styles */
 .title {
   font-family: contralto-big, sans-serif;
@@ -139,6 +168,7 @@ nav li a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
+  line-height: 70px;
 }
 
 #header-nums-members {
@@ -245,4 +275,17 @@ nav li a:hover {
   position: relative;
   top: 50px;
   left: 88px;
+}
+
+#editors-picks-title {
+  font-family: scotch-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 101px;
+  letter-spacing: 30px;
+}
+
+.quote {
+  width: 60%;
+  text-align: left;
 }
