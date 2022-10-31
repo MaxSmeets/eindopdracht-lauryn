@@ -183,6 +183,25 @@ nav li a:hover {
   padding-top: 35px;
 }
 
+.footer-icon {
+  height: 40px;
+  width: 40px;
+  margin: 40px 40px;
+}
+
+#reading {
+  height: 320px;
+  width: 555px;
+  object-fit: cover;
+}
+
+#artist {
+  width: 100%;
+  height: 885px;
+  object-fit: cover;
+  margin: 240px 0px;
+}
+
 /* Text styles */
 .title {
   font-family: contralto-big, sans-serif;
@@ -275,7 +294,7 @@ nav li a:hover {
   float: right;
   position: relative;
   top: 150px;
-  right: 50px;
+  right: 60px;
 }
 
 #ontwerp-header::before {
@@ -286,7 +305,7 @@ nav li a:hover {
   width: 130px;
   position: relative;
   top: 50px;
-  left: 88px;
+  left: 98px;
 }
 
 #ethiek-header {
@@ -296,7 +315,7 @@ nav li a:hover {
   float: right;
   position: relative;
   top: 150px;
-  right: 50px;
+  right: 100px;
 }
 
 #ethiek-header::before {
@@ -304,6 +323,48 @@ nav li a:hover {
   display: block;
   height: 7px;
   background-color: #b6f9ce;
+  width: 130px;
+  position: relative;
+  top: 50px;
+  left: 98px;
+}
+
+#technologie-header {
+  font-family: articulat-heavy-cf;
+  font-weight: 900;
+  font-size: 40px;
+  float: right;
+  position: relative;
+  top: 150px;
+  right: 0px;
+}
+
+#technologie-header::before {
+  content: "";
+  display: block;
+  height: 7px;
+  background-color: #a1e6b9;
+  width: 130px;
+  position: relative;
+  top: 50px;
+  left: 105px;
+}
+
+#kunst-header {
+  font-family: articulat-heavy-cf;
+  font-weight: 900;
+  font-size: 40px;
+  float: right;
+  position: relative;
+  top: 150px;
+  right: 100px;
+}
+
+#kunst-header::before {
+  content: "";
+  display: block;
+  height: 7px;
+  background-color: #e3def7;
   width: 130px;
   position: relative;
   top: 50px;
@@ -354,7 +415,7 @@ nav li a:hover {
   font-family: scotch-display, sans-serif;
   font-weight: 400;
   font-size: 30px;
-  margin-top: 40px;
+  margin: 40px 0px;
 }
 
 .footer-btn {
@@ -363,6 +424,6 @@ nav li a:hover {
   color: #d7d4dc;
   font-family: auto-pro-new, sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 40px;
   margin: 20px 40px;
 }
