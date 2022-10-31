@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/wcv3oxg.css");
 
-/* body {
+body {
   background-image: url(../img/figuur1.png);
   background-repeat: no-repeat;
   background-size: 900px;
-  background-position: left;
-} */
+  background-position: top;
+}
 
 .header {
   height: 777px;
