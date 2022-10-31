@@ -103,6 +103,20 @@ nav li a:hover {
   margin: 20px 83px;
 }
 
+.category {
+  border: 0px;
+  border-radius: 0px;
+  width: 142px;
+  padding: 5px 0px;
+  margin: 20px 15px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* Image styles */
 .ontwerp-image {
   height: 316px;
@@ -156,7 +170,6 @@ nav li a:hover {
   font-family: contralto-big, sans-serif;
   font-weight: 600;
   font-size: 77px;
-  font-style: normal;
   margin-left: -12px;
   margin-top: 38px;
   margin-bottom: 63px;
@@ -166,15 +179,21 @@ nav li a:hover {
 .subtitle {
   font-family: scotch-display, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 50px;
   line-height: 70px;
+}
+
+.publish-date {
+  font-family: auto-pro, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #909090;
+  text-align: center;
 }
 
 #header-nums-members {
   font-family: articulat-heavy-cf, sans-serif;
   font-weight: 900;
-  font-style: normal;
   font-size: 50px;
   margin-top: 130px;
 }
@@ -197,7 +216,6 @@ nav li a:hover {
 #header-nums-articles {
   font-family: articulat-heavy-cf, sans-serif;
   font-weight: 900;
-  font-style: normal;
   font-size: 50px;
   margin-top: 130px;
 }
@@ -220,7 +238,6 @@ nav li a:hover {
 .header-nums-sub {
   font-family: auto-pro, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 20px;
 }
 
@@ -229,14 +246,13 @@ nav li a:hover {
   float: right;
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 30px;
+  color: #000;
 }
 
 #ontwerp-header {
   font-family: articulat-heavy-cf;
   font-weight: 900;
-  font-style: normal;
   font-size: 40px;
   float: right;
   position: relative;
@@ -258,7 +274,6 @@ nav li a:hover {
 #ethiek-header {
   font-family: articulat-heavy-cf;
   font-weight: 900;
-  font-style: normal;
   font-size: 40px;
   float: right;
   position: relative;
@@ -280,7 +295,6 @@ nav li a:hover {
 #editors-picks-title {
   font-family: scotch-display, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 101px;
   letter-spacing: 30px;
 }
@@ -288,4 +302,24 @@ nav li a:hover {
 .quote {
   width: 60%;
   text-align: left;
+}
+
+.article-title {
+  font-family: scotch-display, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.article-paragraph {
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin: 30px 0px;
+}
+
+.article-section {
+  width: 75%;
+  margin: auto;
 }
